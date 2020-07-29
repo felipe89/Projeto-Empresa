@@ -9,14 +9,14 @@ import java.util.List;
 public class ListaTipoCuringaDelimitada {
     public static void main(String[] args) {
 
-//        List<Integer> intList = new ArrayList<>();
-//
-//        intList.add(8);
-//        intList.add(10);
-//
-//        List<? extends Number> list = intList;
-//
-//        Number x = list.get(0); //Erro ao tentar inserir um elemento na lista
+        List<Integer> intList = new ArrayList<>();
+
+        intList.add(8);
+        intList.add(10);
+
+        List<? extends Number> list = intList;
+
+        Number x = list.get(0); //Erro ao tentar inserir um elemento na lista
 //________________________________________________________________________________________
 //        List<Object> myObjs = new ArrayList<>();
 //
