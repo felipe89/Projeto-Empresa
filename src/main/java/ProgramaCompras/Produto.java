@@ -13,6 +13,9 @@ public class Produto {
         this.quantidade = quantidade;
     }
 
+    public Produto(String tv, double v) {
+    }
+
     public String getNome() {
         return nome;
     }
