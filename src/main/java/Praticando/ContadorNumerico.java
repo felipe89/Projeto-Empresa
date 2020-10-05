@@ -1,4 +1,4 @@
-package ProgramacaoLambda;
+package Praticando;
 
 import javax.swing.*;
 import java.util.Scanner;
