@@ -18,8 +18,9 @@ public class ProgramaDataNascimento {
         contasMes.put(cdm2, 50.10);
         contasMes.put(cdm3, 10.20);
 
-        ContasDoMes cs = new ContasDoMes("Carro", 500.0);
+        ContasDoMes cs = new ContasDoMes("Luz", 100.0);
 
         out.println("Verifica map: " + contasMes.containsKey(cs));
+        out.println("Tamanho do map: " + contasMes.size());
     }
 }
